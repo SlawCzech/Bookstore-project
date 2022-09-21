@@ -168,4 +168,6 @@ ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 DEFAULT_FROM_EMAIL = "admin@djangobookstore.com"
 
-
+# User uploaded media
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
