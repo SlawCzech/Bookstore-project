@@ -3,5 +3,7 @@
 
 **/*.pyc
 env/.env
-
+.venv
 venv
+docker-compose-prod.yml
+db.sqlite3
